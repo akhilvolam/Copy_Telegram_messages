@@ -68,7 +68,6 @@ class TelegramForwarder:
             # Add a delay before checking for new messages again
             await asyncio.sleep(5)  # Adjust the delay time as needed
 
-
     # Copy messages from the channel
     async def copy_messages(self, source_chat_id, destination_chat_id):
         await self.client.connect()
@@ -120,8 +119,6 @@ class TelegramForwarder:
 
         except Exception as e:
             print(f"Error getting history: {e}")
-
-
 
 
 # Function to read credentials from file
@@ -182,6 +179,7 @@ async def main():
  
     else:
         print("Invalid choice")
+
 
 # Start the event loop and run the main function
 if __name__ == "__main__":
