@@ -21,8 +21,8 @@ You can specify one or more keywords that, if found in a message, trigger the fo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/redianmarku/Telegram-Autoforwarder.git
-   cd Telegram-Autoforwarder
+   git clone https://github.com/akhilvolam/Copy_Telegram_messages.git
+   cd Copy_Telegram_messages
    ```
 
 2. Install the required dependencies:
@@ -52,6 +52,3 @@ You can specify one or more keywords that, if found in a message, trigger the fo
 - Ensure that you have the necessary permissions to access messages in the chats you want to use.
 - Adjust the script's behavior and settings according to your requirements.
 
-## License
-
-This project is licensed under the MIT License.
